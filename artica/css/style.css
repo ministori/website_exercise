@@ -16,31 +16,25 @@
 
 .logo{
   float:left;
-  line-height:101px;
+  margin-top:32px;
 }
 
 .logo-link{
+  display:block;
   width:122px;
   height:30px;
   background:url(../images/logo_artica.gif) no-repeat;
   text-indent:-99999px;
-  display:inline-block;
-  vertical-align:middle;
-}
-
-.wrap-btn-menu-toggle{
-  width:200px;
-  height:200px;
-  display:table-cell;
-  vertical-align:middle;
 }
 
 .btn-menu-toggle{
+  float:right;
   width:26px;
   height:23px;
   background:url(../images/btn_show_menu.gif) no-repeat;
   text-indent:-99999px;
   border:0;
+  margin-top:39px;
 }
 
 .gnb{
@@ -50,7 +44,7 @@
 
   position:fixed;
   top:0;
-  right:0;
+  right:-340px;
   background:#161f32;
 }
 
@@ -91,6 +85,76 @@
   cursor: pointer;
 }
 
+.contents{
+  text-align:center;
+}
+
+.heading-section{
+  font-size:30px;
+}
+
+.heading-section.logo-type{
+  font-family:Molle, cursive;
+  font-size:52px;
+  color:#fff;
+}
+
+.heading-section.dark{
+  color:#3d506f;
+}
+
+.heading-section.white{
+  color:#fff;
+}
+
+.hr-line{
+  margin-top:30px;
+  position:relative;
+}
+
+.hr-line.dark:before{
+  content:"";
+  display:block;
+  width:571px;
+  height:1px;
+  background:#7f90a5;
+  margin-bottom:30px;
+}
+
+.hr-line.dark:after{
+  content:"";
+  display:block;
+
+  width:23px;
+  height:16px;
+  background:#fff url(../images/hr_line_circle_dark.png) no-repeat center;
+
+  position:absolute;
+  top:-8px;
+  left:0;
+}
+
+.hr-line.white:before{
+  content:"";
+  display:block;
+  width:571px;
+  height:1px;
+  background:#fff;
+  margin-bottom:30px;
+}
+
+.hr-line.white:after{
+  content:"";
+  display:block;
+
+  width:23px;
+  height:16px;
+  background:#3d506f url(../images/hr_line_circle_white.png) no-repeat center;
+
+  position:absolute;
+  top:-8px;
+  left:0;
+}
 
 
 
