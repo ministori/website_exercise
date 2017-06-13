@@ -88,6 +88,8 @@
 /* 공통(common) css */
 .contents{
   text-align:center;
+  padding-top:65px;
+  box-sizing:border-box;
 }
 
 .heading-section{
@@ -109,6 +111,15 @@
   color:#fff;
 }
 
+.heading-section-sub{
+  font-size:20px;
+  margin-top:17px;
+}
+
+.heading-section-sub.white{
+  color:#fff;
+}
+
 .hr-line{
   margin-top:30px;
   position:relative;
@@ -120,7 +131,7 @@
   width:571px;
   height:1px;
   background:#7f90a5;
-  margin-bottom:30px;
+  margin:0 auto 30px;
 }
 
 .hr-line.dark:after{
@@ -133,7 +144,8 @@
 
   position:absolute;
   top:-8px;
-  left:0;
+  left:50%;
+  margin-left:-12px;
 }
 
 .hr-line.white:before{
@@ -159,6 +171,52 @@
   margin-left:-12px;
 }
 
+.paragraph{
+  line-height:1.4;
+}
+
+.paragraph.white{
+  color:#fff;
+}
+
+.paragraph.big{
+  font-size:25px;
+  font-weight:300;
+}
+
+.btn-link{
+  width:173px;
+  height:53px;
+  box-sizing:border-box;
+  color:#fff;
+  display:block;
+  line-height:53px;
+}
+
+.btn-link.center{
+  margin:35px auto 0;
+}
+
+.btn-link.white{
+  border:1px solid #fff;
+}
+
+.btn-link.dark{
+  background:#3d506f;
+}
+
+/* 전용 css */
+.mt20{
+  margin-top:20px;
+}
+.mt35{
+  margin-top:35px;
+}
+
+.fc-white{
+  color:#fff;
+}
+
 /* 영역별 css */
 .section1{
   background:#546279;
@@ -169,8 +227,21 @@
   background:#222c40;
   height:311px;
   position:relative;
-  top:170px;
+  top:105px;
   padding-top:43px;
+}
+
+.section3{
+  height:240px;
+  background:#1d263a;
+}
+
+.section5{
+  background:#222c40;
+}
+
+.section8{
+  background:#161f32;
 }
 
 
