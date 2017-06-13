@@ -85,6 +85,7 @@
   cursor: pointer;
 }
 
+/* 공통(common) css */
 .contents{
   text-align:center;
 }
@@ -97,6 +98,7 @@
   font-family:Molle, cursive;
   font-size:52px;
   color:#fff;
+  margin-bottom:47px;
 }
 
 .heading-section.dark{
@@ -140,7 +142,7 @@
   width:571px;
   height:1px;
   background:#fff;
-  margin-bottom:30px;
+  margin:0 auto 30px;
 }
 
 .hr-line.white:after{
@@ -149,14 +151,27 @@
 
   width:23px;
   height:16px;
-  background:#3d506f url(../images/hr_line_circle_white.png) no-repeat center;
+  background:#222c40 url(../images/hr_line_circle_white.png) no-repeat center;
 
   position:absolute;
   top:-8px;
-  left:0;
+  left:50%;
+  margin-left:-12px;
 }
 
+/* 영역별 css */
+.section1{
+  background:#546279;
+  height:700px;
+}
 
+.section1>.inner-section{
+  background:#222c40;
+  height:311px;
+  position:relative;
+  top:170px;
+  padding-top:43px;
+}
 
 
 

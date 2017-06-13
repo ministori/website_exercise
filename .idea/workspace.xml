@@ -26,8 +26,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/artica/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.32784185">
-                  <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.49588138">
+                  <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -40,8 +40,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/artica/html/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67469877">
-                  <caret line="52" column="23" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.32358003">
+                  <caret line="40" column="42" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="42" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -74,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/../tutorial/03_center_align.html" />
         <option value="$PROJECT_DIR$/artica/css/reset.css" />
-        <option value="$PROJECT_DIR$/artica/css/style.css" />
         <option value="$PROJECT_DIR$/artica/html/index.html" />
+        <option value="$PROJECT_DIR$/artica/css/style.css" />
       </list>
     </option>
   </component>
@@ -441,18 +441,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artica/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32784185">
-          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artica/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67469877">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.32358003">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="42" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -465,6 +457,14 @@
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49588138">
+          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
