@@ -126,6 +126,7 @@
 }
 
 .hr-line.mt45:before{
+  /* !important 키워드 : 우선순위를 가장 높게 해줌( 인라인 방식보다 우선됨 ) */
   margin:0 auto 45px !important;
 }
 
@@ -260,16 +261,70 @@
 
 }
 
-.service-list-item{
+.service-list:after{
+  content:"";
+  display:block;
+  clear:both;
+}
 
+.service-list-item{
+  float:left;
 }
 
 .service-list-item>.item-heading{
-
+  position:relative;
 }
 
 .service-list-item>.item-heading:before{
-  
+  content:"";
+  display:block;
+
+  width:107px;
+  height:107px;
+  /* css3 둥근 모서리 - 50% => 원 */
+  border-radius:50%;
+  background:#3d506f;
+  margin:0 auto 25px;
+}
+
+.service-list-item>.item-heading:after{
+  content:"";
+  display:block;
+  background:url(../images/icon_sprite.png) no-repeat;
+  position:absolute;
+  left:50%;
+}
+
+.service-list-item:nth-child(1)>.item-heading:after{
+  width:39px;
+  height:36px;
+  background-position:0px 0px;
+  top:40px;
+  margin-left:-20px;
+}
+
+.service-list-item:nth-child(2)>.item-heading:after{
+  width:38px;
+  height:39px;
+  background-position:0px 0px;
+  top:37px;
+  margin-left:-19px;
+}
+
+.service-list-item:nth-child(3)>.item-heading:after{
+  width:40px;
+  height:38px;
+  background-position:0px 0px;
+  top:37px;
+  margin-left:-20px;
+}
+
+.service-list-item:nth-child(4)>.item-heading:after{
+  width:45px;
+  height:44px;
+  background-position:0px 0px;
+  top:34px;
+  margin-left:-23px;
 }
 
 
