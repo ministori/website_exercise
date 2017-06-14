@@ -125,6 +125,10 @@
   position:relative;
 }
 
+.hr-line.mt45:before{
+  margin:0 auto 45px !important;
+}
+
 .hr-line.dark:before{
   content:"";
   display:block;
@@ -182,6 +186,10 @@
 .paragraph.big{
   font-size:25px;
   font-weight:300;
+}
+
+.paragraph.italic{
+  font-style: italic;
 }
 
 .btn-link{
@@ -244,7 +252,25 @@
   background:#161f32;
 }
 
+.section10{
+  background:#161f32;
+}
 
+.service-list{
+
+}
+
+.service-list-item{
+
+}
+
+.service-list-item>.item-heading{
+
+}
+
+.service-list-item>.item-heading:before{
+  
+}
 
 
 
