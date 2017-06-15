@@ -120,6 +120,13 @@
   color:#fff;
 }
 
+.heading-section-sub2{
+  font-size:25px;
+  margin-bottom:23px;
+  color:#3d506f;
+  font-weight:400;
+}
+
 .hr-line{
   margin-top:30px;
   position:relative;
@@ -200,6 +207,7 @@
   color:#fff;
   display:block;
   line-height:53px;
+  text-align:center;
 }
 
 .btn-link.center{
@@ -222,8 +230,18 @@
   margin-top:35px;
 }
 
+.mt65{
+  margin-top:65px;
+}
+
 .fc-white{
   color:#fff;
+}
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
 }
 
 /* ¿µ¿ªº° css */
@@ -422,12 +440,6 @@
   margin-top:10px;
 }
 
-.photo-list-item:nth-child(2) .item-story,
-.photo-list-item:nth-child(3) .item-story,
-.photo-list-item:nth-child(4) .item-story{
-  display:none
-}
-
 .photo-list-item>.item-story{
   width:100%;
   height:263px;
@@ -435,7 +447,105 @@
   position:absolute;
   left:0;
   bottom:0;
+  text-align:left;
+  padding:35px 0;
+  box-sizing:border-box;
+  color:#fff;
 }
+
+.photo-list-item>.item-story:before{
+  content:"";
+  display:block;
+  width:0;
+  height:0;
+  border-left:14px solid transparent;
+  border-right:14px solid transparent;
+  border-bottom:16px solid #161f32;
+  position:absolute;
+  top:-16px;
+  left:50%;
+}
+
+.photo-list-item:nth-child(1)>.item-story:before{
+  margin-left:-475px;
+}
+
+.photo-list-item:nth-child(2)>.item-story:before{
+  margin-left:-170px;
+}
+
+.photo-list-item:nth-child(3)>.item-story:before{
+  margin-left:135px;
+}
+
+.photo-list-item:nth-child(4)>.item-story:before{
+  margin-left:440px;
+}
+
+.photo-list-item .item-story-heading{
+  font-size:20px;
+  font-weight:700;
+}
+
+.photo-list-item .item-story-paragraph{
+  line-height:1.2;
+  font-weight:300;
+  margin:35px 0;
+}
+
+.photo-list-item .item-story-period:before{
+  content:"";
+  display:inline-block;
+  width:14px;
+  height:14px;
+  background:url(../images/icon_sprite.png) no-repeat -2px -121px;
+  margin-right:9px;
+  position:relative;
+  top:1px;
+}
+
+.photo-list-item .item-story-birth{
+  margin-top:10px;
+}
+
+.photo-list-item .item-story-birth:before{
+  content:"";
+  display:inline-block;
+  width:13px;
+  height:12px;
+  background:url(../images/icon_sprite.png) no-repeat -16px -121px;
+  margin-right:9px;
+}
+
+.btn-pop-close{
+  width:12px;
+  height:12px;
+  background:url(../images/btn_close_menu.png) no-repeat;
+  border:0;
+  text-indent:-99999px;
+  cursor: pointer;
+
+  position:absolute;
+  top:25px;
+  left:50%;
+  margin-left:573px;
+}
+
+.our-company{
+  float:left;
+  width:570px;
+  text-align:left;
+}
+
+.our-skills{
+  float:right;
+  width:570px;
+  text-align:left;
+}
+
+
+
+
 
 
 
