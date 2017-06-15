@@ -94,6 +94,7 @@
 
 .heading-section{
   font-size:30px;
+  font-weight:400;
 }
 
 .heading-section.logo-type{
@@ -125,6 +126,10 @@
   margin-bottom:23px;
   color:#3d506f;
   font-weight:400;
+}
+
+.heading-section-sub2.white{
+  color:#fff;
 }
 
 .hr-line{
@@ -543,15 +548,265 @@
   text-align:left;
 }
 
+.skill-list-item{
+  margin-bottom:8px;
+  background:#ddd;
+}
 
+.skill-list-item:last-child{
+  margin-bottom:0;
+}
 
+.skill-list-item>.bar{
+  height:42px;
+  color:#fff;
+  line-height:42px;
+  background:#3d506f;
+  padding-left:16px;
+  box-sizing:border-box;
 
+}
 
+.skill-list-item>.bar.p93{
+  width:93%;
+}
 
+.skill-list-item>.bar.p90{
+  width:90%;
+}
 
+.skill-list-item>.bar.p85{
+  width:85%
+}
 
+.skill-list-item>.bar.p80{
+  width:80%;
+}
 
+.career-wrap{
+  width:100%;
+  padding:63px 0;
+  background:#222c40;
+  margin-top:68px;
+}
 
+.career-list:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.career-list-item{
+  float:left;
+  text-align:left;
+  color:#fff;
+  position:relative;
+  margin-right:160px;
+}
+
+.career-list-item:nth-child(1){
+  padding-left:87px;
+}
+
+.career-list-item:nth-child(2){
+  padding-left:87px;
+}
+
+.career-list-item:nth-child(3){
+  padding-left:67px;
+}
+
+.career-list-item:nth-child(4){
+  padding-left:78px;
+  margin-right:0;
+}
+
+.career-list-item:before{
+  content:"";
+  display:block;
+  background:url(../images/icon_sprite.png) no-repeat;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.career-list-item:nth-child(1):before{
+  width:77px;
+  height:74px;
+  background-position:0 -46px;
+}
+.career-list-item:nth-child(2):before{
+  width:77px;
+  height:68px;
+  background-position:-78px -46px;
+}
+.career-list-item:nth-child(3):before{
+  width:57px;
+  height:71px;
+  background-position:-156px -46px;
+}
+.career-list-item:nth-child(4):before{
+  width:68px;
+  height:56px;
+  background-position:-214px -46px;
+}
+
+.career-number{
+  font-size:40px;
+  margin-bottom:5px;
+}
+
+.btn-filter-wrap{
+  margin:67px 0;
+}
+
+.btn-filter{
+  height:36px;
+  padding:0 21px;
+  background:#3d506f;
+  color:#fff;
+  font-size:20px;
+  border:0;
+  margin-right:17px;
+}
+
+.btn-filter:last-child{
+  margin-right:0;
+}
+
+.btn-filter.all{
+  background:#00c7fc;
+}
+
+.blog-list{
+  margin-bottom:120px;
+}
+
+.blog-list:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.blog-list-item{
+  margin-bottom:30px;
+}
+
+.blog-list-item.type1{
+  width:570px;
+  height:300px;
+  float:left;
+}
+
+.blog-list-item:first-child{
+  margin-right:30px;
+}
+
+.blog-list-item:last-child{
+  margin-left:30px;
+}
+
+.blog-list-item.type1>.blog-list-item-image{
+  width:285px;
+  height:300px;
+  float:left;
+}
+
+.blog-list-item.type1>.blog-list-item-text{
+  width:285px;
+  height:300px;
+  float:left;
+  padding:25px;
+  box-sizing:border-box;
+}
+
+.blog-list-item.type2{
+  width:770px;
+  float:left;
+}
+
+.blog-list-item.type2>.blog-list-item-text{
+  height:300px;
+  padding:25px;
+  box-sizing:border-box;
+}
+
+.blog-list-item.type3{
+  width:370px;
+  float:right;
+}
+
+.blog-list-item.type3>.blog-list-item-image{
+  width:370px;
+  height:300px;
+  /* img 태그가 인라인 요소일때 생기는 불필요한 여백을 제거하기 위함 */
+  display:block;
+}
+
+.blog-list-item.type3>.blog-list-item-text{
+  height:330px;
+  padding:25px;
+  box-sizing:border-box;
+}
+
+.blog-list-item.type4{
+  width:370px;
+  float:left;
+}
+
+.blog-list-item.type4>.blog-list-item-text{
+  height:300px;
+  padding:25px;
+  box-sizing:border-box;
+}
+
+.blog-list-item-text{
+  background:#161f32;
+  text-align:left;
+}
+
+.blog-list-item-text>.author{
+  color:#fff;
+  margin-bottom:20px;
+}
+
+.blog-list-item-text>.paragraph{
+  line-height:1.2;
+}
+
+.email-wrap{
+  width:770px;
+  height:66px;
+  margin:70px auto;
+}
+
+.email-input{
+  width:573px;
+  height:66px;
+  padding:25px;
+  background:#3d506f;
+  box-sizing:border-box;
+  border:0;
+  color:#fff;
+  /* input 태그에 폰트 종류는 직접 지정해줘야 함 */
+  font-family:Lato, sans-serif;
+  font-size:20px;
+  font-weight:400;
+  display:block;
+  float:left;
+}
+
+.email-send{
+  width:172px;
+  height:66px;
+  background:#3d506f;
+  color:#fff;
+  border:0;
+  font-size:20px;
+  font-weight:400;
+  display:block;
+  float:right;
+}
 
 
 
