@@ -20,54 +20,74 @@
     <favorites_list name="website_exercise" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artica/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0769231">
-              <caret line="519" column="26" selection-start-line="519" selection-start-column="26" selection-end-line="519" selection-end-column="26" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artica/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3937397">
-              <caret line="681" column="22" selection-start-line="681" selection-start-column="22" selection-end-line="681" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/artica/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8039539">
+                  <caret line="1099" column="0" selection-start-line="1099" selection-start-column="0" selection-end-line="1099" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/artica/html/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.5714286">
+                  <caret line="351" column="40" selection-start-line="351" selection-start-column="40" selection-end-line="351" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#6;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#7;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#3;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#p#0;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/../tutorial/03_center_align.html" />
         <option value="$PROJECT_DIR$/artica/css/reset.css" />
-        <option value="$PROJECT_DIR$/artica/html/index.html" />
         <option value="$PROJECT_DIR$/artica/css/style.css" />
+        <option value="$PROJECT_DIR$/artica/html/index.html" />
       </list>
     </option>
   </component>
@@ -123,7 +143,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,8 +211,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website_exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website_exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,26 +302,45 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -304,15 +361,7 @@
     <entry file="file://$PROJECT_DIR$/artica/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="490" column="1" selection-start-line="490" selection-start-column="1" selection-end-line="490" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artica/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <caret line="763" column="2" selection-start-line="763" selection-start-column="2" selection-end-line="763" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -326,7 +375,16 @@
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#6;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#7;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -336,17 +394,189 @@
             <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#6;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#7;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="681" column="22" selection-start-line="681" selection-start-column="22" selection-end-line="681" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="519" column="26" selection-start-line="519" selection-start-column="26" selection-end-line="519" selection-end-column="26" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#6;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#7;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="490" column="1" selection-start-line="490" selection-start-column="1" selection-end-line="490" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artica/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#6;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#7;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -464,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29983526">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,14 +704,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artica/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0769231">
-          <caret line="519" column="26" selection-start-line="519" selection-start-column="26" selection-end-line="519" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.5714286">
+          <caret line="351" column="40" selection-start-line="351" selection-start-column="40" selection-end-line="351" selection-end-column="40" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#3;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#4;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#5;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#6;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#7;n#ul#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -492,25 +730,28 @@
             <element signature="n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#4;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#5;n#ul#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artica/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3937397">
-          <caret line="681" column="22" selection-start-line="681" selection-start-column="22" selection-end-line="681" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.8039539">
+          <caret line="1099" column="0" selection-start-line="1099" selection-start-column="0" selection-end-line="1099" selection-end-column="0" />
           <folding />
         </state>
       </provider>
