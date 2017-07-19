@@ -45,27 +45,44 @@ $(function(){
 
     var indexNumber = $(this).parent().index('.pofol-list-item');
 
-    $(this).next().css({height : 470});
+    var lineNumber = Math.floor(indexNumber/4);
 
-    if( indexNumber >= 0 && indexNumber <=3 ){
+    var detailTop = parseInt( $('.detail-wrap').css('top') ) + ( lineNumber * 230 );
 
-      for(var i=0; i<=3; i++){
+    $(this).next().css({
+      top : detailTop,
+      height : 486
+    });
 
-        $('.pofol-list-item').eq(i).css({'padding-bottom' : 490});
-
-      }
-
-    } else if( indexNumber >= 4 && indexNumber <= 7 ){
-
-      for(var j=4; j<=7; j++){
-
-        $('.pofol-list-item').eq(j).css({'padding-bottom' : 490});
-
-      }
-
+    for(var k=0; k<=3; k++){
+      $('.pofol-list-item').eq( lineNumber*4 + k ).css({'padding-bottom' : 490});
     }
 
+/*
+    if( indexNumber >= 0 && indexNumber <=3 ){
+      for(var i=0; i<=3; i++){
+        $('.pofol-list-item').eq(i).css({'padding-bottom' : 490});
+      }
+    } else if( indexNumber >= 4 && indexNumber <= 7 ){
+      for(var j=4; j<=7; j++){
+        $('.pofol-list-item').eq(j).css({'padding-bottom' : 490});
+      }
+    }
+*/
 
+  });
+
+  $('.pofol-list-item .btn-pop-close').on('click', function(){
+
+    var indexNumber = $(this).parents('.pofol-list-item').index('.pofol-list-item');
+
+    var lineNumber = Math.floor(indexNumber/4);
+
+    $('.detail-wrap').css({height : 0});
+
+    for(var k=0; k<=3; k++){
+      $('.pofol-list-item').eq( lineNumber*4 + k ).css({'padding-bottom' : 0});
+    }
 
   });
 
