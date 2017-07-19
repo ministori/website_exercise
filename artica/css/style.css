@@ -1072,6 +1072,7 @@
 .pofol-list-item{
   float:left;
   margin:0 30px 30px 0;
+  transition:padding-bottom 1s ease-out;
 }
 
 .pofol-list-item:nth-child(1),
