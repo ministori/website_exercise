@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Astro About Us</title>
+  <link rel="stylesheet" href="../css/reset.css"/>
+  <link rel="stylesheet" href="../css/aboutus.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 </head>
 <body>
 
 <header class="header">
   <div class="gnb">
     <div class="inner-box">
-      <h1 class="logo">Astro</h1>
+      <h1 class="logo"><a href="#" class="logo-link">Astro</a></h1>
       <nav class="menu">
         <ul class="menu-list">
-          <li class="menu-list-item"><a href="#" class="menu-list-link">Home</a></li>
+          <li class="menu-list-item"><a href="#" class="menu-list-link">HOME</a></li>
           <li class="menu-list-item"><a href="#" class="menu-list-link">SERVICES</a></li>
           <li class="menu-list-item"><a href="#" class="menu-list-link">ABOUT</a></li>
           <li class="menu-list-item"><a href="#" class="menu-list-link">BLOG</a></li>
@@ -24,210 +27,229 @@
   </div>
   <div class="util">
     <div class="inner-box">
-      <ul>
-        <li>Call Us: (0) 123 456 789</li>
-        <li>jetspace@mail.com</li>
+      <ul class="util-list">
+        <li class="util-list-item">Call Us: (0) 123 456 789</li>
+        <li class="util-list-item">jetspace@mail.com</li>
       </ul>
-      <select>
-        <option>ENG</option>
-        <option>KOR</option>
+      <select class="flag">
+        <option class="flag-name">ENG</option>
+        <option class="flag-name">KOR</option>
       </select>
     </div>
   </div>
 </header>
 
-<section>
-  <div>
-    <h2>About Us</h2>
-    <div>
+<section class="contents section1">
+  <div class="inner-box">
+    <h2 class="heading-section">About Us</h2>
+    <p class="paragraph dark">
       Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin.
-    </div>
+    </p>
   </div>
+
 </section>
 
-<section>
-  <div>
-    <img src="" />
-    <div>
-      <h3>Super fast servers</h3>
-      <p>
+<section class="section2">
+  <div class="inner-box">
+    <div class="servers">
+      <h3 class="servers-heading">Super fast servers</h3>
+      <p class="paragraph dark">
         Vestibulum ac diam sit amet quam vehicula elementum sed sit <br />
         amet dui. Vestibulum ac diam sit amet quam vehicula
       </p>
-      <ul>
-        <li>
-          <img src="" />
-          <p>Super Special Offer/$2,99/MO</p>
+      <ul class="servers-list">
+        <li class="servers-list-item">
+          <p class="paragraph dark">Super Special Offer/$2,99/MO</p>
         </li>
-        <li>
-          <img src="" />
-          <p>Unlimited Bandwidth and Space</p>
+        <li class="servers-list-item">
+          <p class="paragraph dark">Unlimited Bandwidth and Space</p>
         </li>
-        <li>
-          <img src="" />
-          <p>Daily Backups</p>
+        <li class="servers-list-item">
+          <p class="paragraph dark">Daily Backups</p>
         </li>
       </ul>
     </div>
   </div>
-  <div>
-    <h4>What We Do</h4>
-    <ul>
-      <li>
-        <img src="" />
-        <div>Modern Technology</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+</section>
+
+<section class="contents section3">
+  <div class="inner-box">
+    <h4 class="heading-section">What We Do</h4>
+    <ul class="do-list">
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Modern Technology</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Protected Servers</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Protected Servers</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Fully Secured</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Fully Secured</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Call For Support</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Call For Support</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Best For Business</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Best For Business</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Fully Support</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Fully Support</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Daily Backups</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Daily Backups</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Best Prices</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Best Prices</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
-      <li>
-        <img src="" />
-        <div>Fast Servers</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
-        </div>
+      <li class="do-list-item">
+        <div class="do-list-item-title dark">Fast Servers</div>
+        <p class="do-list-item-paragraph">
+          Curabitur aliquet quam id dui<br />
+          ere blandit.Curabitur ae
+        </p>
       </li>
     </ul>
   </div>
-  <div>
-    <h4>The Team</h4>
-    <ul>
-      <li>
-        <img src="" />
-        <div>John Doe</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
+</section>
+
+<section class="contents section4">
+  <div class="inner-box">
+    <h4 class="heading-section">The Team</h4>
+    <ul class="team-list">
+      <li class="team-list-item">
+        <figure class="item-photo-wrap">
+          <img src="../images/p1.jpg" alt="" class="image-h100"/>
+        </figure>
+        <div class="item-text-wrap">
+          <div class="item-photo-name dark">John Doe</div>
+          <div class="item-photo-role light">
+            Curabitur aliquet quam id dui <br />
+            ere blandit.Curabitur
+          </div>
         </div>
+
       </li>
-      <li>
-        <img src="" />
-        <div>John Doe</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
+      <li class="team-list-item">
+        <figure class="item-photo-wrap">
+          <img src="../images/p2.jpg" alt="" class="image-h100"/>
+        </figure>
+        <div class="item-text-wrap">
+          <div class="item-photo-name dark">John Doe</div>
+          <div class="item-photo-role light">
+            Curabitur aliquet quam id dui<br />
+            ere blandit.Curabitur
+          </div>
         </div>
+
       </li>
-      <li>
-        <img src="" />
-        <div>John Doe</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
+      <li class="team-list-item">
+        <figure class="item-photo-wrap">
+          <img src="../images/p3.jpg" alt="" class="image-h100"/>
+        </figure>
+        <div class="item-text-wrap">
+          <div class="item-photo-name dark">John Doe</div>
+          <div class="item-photo-role light">
+            Curabitur aliquet quam id dui <br />
+            ere blandit.Curabitur
+          </div>
         </div>
+
       </li>
-      <li>
-        <img src="" />
-        <div>John Doe</div>
-        <div>
-          Curabitur aliquet quam id dui posu <br />
-          ere blandit.Curabitur ae blandit
+      <li class="team-list-item">
+        <figure class="item-photo-wrap">
+          <img src="../images/p4.jpg" alt="" class="image-h100"/>
+        </figure>
+        <div class="item-text-wrap">
+          <div class="item-photo-name dark">John Doe</div>
+          <div class="item-photo-role light">
+            Curabitur aliquet quam id dui<br />
+            ere blandit.Curabitur
+          </div>
         </div>
+
       </li>
     </ul>
-    <p>
+    <p class="paragraph">
       Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. <br />
       Donec sollicitudin molue in ipsum
     </p>
   </div>
-  <div>
-    <h4>Our Company</h4>
-    <div>
-      <div>
-        <img src="" />
-      </div>
-      <div>
-        <ul>
-          <li>
-            <img src="" />
+</section>
+
+<section class="contents section5">
+  <div class="inner-box">
+    <h4 class="heading-section">Our Company</h4>
+   <div class="company-wrap">
+     <div class="image-wrap">
+
+        <img src="../images/oc1.jpg" class="big-image image-h100"/>
+
+
+        <ul class="image-wrap-list">
+          <li class="image-list-item">
+            <img src="../images/oc1.jpg" class="image-h100"/>
           </li>
-          <li>
-            <img src="" />
+          <li class="image-list-item">
+            <img src="../images/oc2.jpg" class="image-h100"/>
           </li>
-          <li>
-            <img src="" />
+          <li class="image-list-item">
+            <img src="../images/oc3.jpg" class="image-h100"/>
           </li>
-          <li>
-            <img src="" />
+          <li class="image-list-item">
+            <img src="../images/oc4.jpg" class="image-h100"/>
           </li>
-          <li>
-            <img src="" />
+          <li class="image-list-item">
+            <img src="../images/oc5.jpg" class="image-h100"/>
           </li>
         </ul>
-      </div>
     </div>
-    <div>
-      <P>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut<br />
+
+    <div class="company">
+      <P class="paragraph light">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut<br />
         libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum<br />
         dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula
         elementum sed sit am</P>
-      <P>Suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in,<br />
+      <P class="paragraph light">Suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in,<br />
         elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at<br />
         tellus.orem ipsum dolor si. </P>
-      <P>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lac<br />
+      <P class="paragraph light">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lac<br />
         inia eget consectetur sed, convallis at tellus.</P>
-      <P>Suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in,<br />
+      <P class="paragraph light">Suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in,<br />
         elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at<br />
         tellus.orem ipsum dolor si. </P>
     </div>
+   </div>
   </div>
 </section>
 
@@ -267,11 +289,12 @@
       <div class="list-heading">Our Blog</div>
       <div class="list-heading-sub">Lorem Ipsum sample text</div>
       <p class="footer-paragraph">
-        Vivamus suscipit tortor eget felis porttitorvolutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcuerat, accumsan.
+        Vivamus suscipit tortor eget felis porttitor volutpat.Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcuerat, accumsan.
       </p>
       <a href="http://www.naver.com" class="footer-link">Read More</a>
     </div>
   </div>
+
 </footer>
 
 </body>
