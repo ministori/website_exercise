@@ -40,4 +40,33 @@ $(function(){
 
   });
 
+  // portfolio list
+  $('.pofol-list-item>.thumb').on('click', function(){
+
+    var indexNumber = $(this).parent().index('.pofol-list-item');
+
+    $(this).next().css({height : 470});
+
+    if( indexNumber >= 0 && indexNumber <=3 ){
+
+      for(var i=0; i<=3; i++){
+
+        $('.pofol-list-item').eq(i).css({'padding-bottom' : 490});
+
+      }
+
+    } else if( indexNumber >= 4 && indexNumber <= 7 ){
+
+      for(var j=4; j<=7; j++){
+
+        $('.pofol-list-item').eq(j).css({'padding-bottom' : 490});
+
+      }
+
+    }
+
+
+
+  });
+
 });
