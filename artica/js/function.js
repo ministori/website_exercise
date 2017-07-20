@@ -82,10 +82,10 @@ $(function(){
 
   });
 
-
   // number count
   $('.career-list').on('click', function(){
     var count = 0;
+
     var countTime = setInterval(function(){
       if( count <= 230 ) {
         $('.career-number').eq(0).text(count);
@@ -106,14 +106,4 @@ $(function(){
     }, 10);
   });
 
-  // inview
-
-
-
-});
-
-$(function(){
-  $('.skill-list').inview(function(){
-    console.log(1243);
-  });
 });
