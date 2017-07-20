@@ -42,9 +42,78 @@ $(function(){
 
   // about us - my story
   $('.item-photo-mask').on('click', function(){
+    $('.item-story-wrap').css({
+      height : 0
+    });
+    $(this).parent().next().css({
+      height : 279,
+      transition:'height .3s ease-out'
+    });
+    $('.section5').css({
+      'padding-bottom' : 279,
+      transition:'padding-bottom .3s ease-out'
+    });
+  });
+  $('.js-item-story-close').on('click', function(){
 
-    $(this).parent().next().css({height : 279});
+    $(this).parents('.item-story-wrap').css({
+      height : 0,
+      transition:'height .3s ease-out'
+    });
+
+    $('.section5').css({
+      'padding-bottom' : 0,
+      transition:'padding-bottom .3s ease-out'
+    });
 
   });
 
+  // our skills
+  // bar graph
+  $('.skill-list').on('click', function(){
+
+    var barAmount = ['p90', 'p80', 'p93', 'p85'];
+
+    $('.skill-list-item>.bar').each(function(index){
+
+      $(this).addClass( barAmount[index] );
+
+    });
+
+  });
+
+
+  // number count
+  $('.career-list').on('click', function(){
+    var count = 0;
+    var countTime = setInterval(function(){
+      if( count <= 230 ) {
+        $('.career-number').eq(0).text(count);
+      }
+      if( count <= 22 ) {
+        $('.career-number').eq(1).text(count);
+      }
+      if( count <= 2380 ) {
+        $('.career-number').eq(2).text(count);
+      }
+      if( count <= 50890 ) {
+        $('.career-number').eq(3).text(count);
+      }
+      if( count > 50890 ){
+        clearInterval(countTime);
+      }
+      count++;
+    }, 10);
+  });
+
+  // inview
+
+
+
+});
+
+$(function(){
+  $('.skill-list').inview(function(){
+    console.log(1243);
+  });
 });

@@ -395,7 +395,7 @@
 }
 
 .photo-list{
-  padding:85px 0 60px;
+  padding:85px 0 44px;
 }
 
 .photo-list:after{
@@ -597,6 +597,7 @@
 .skill-list-item{
   margin-bottom:8px;
   background:#ddd;
+  position:relative;
 }
 
 .skill-list-item:last-child{
@@ -608,9 +609,46 @@
   color:#fff;
   line-height:42px;
   background:#3d506f;
-  padding-left:16px;
   box-sizing:border-box;
+  width:0;
+  transition:width 2s ease-out;
+  white-space:nowrap;
+  overflow:hidden;
+  position:relative;
+  z-index:10;
+}
 
+.skill-list-item:nth-child(1):after{
+  content:"Html&Css";
+}
+
+.skill-list-item:nth-child(2):after{
+  content:"Javascript";
+}
+
+.skill-list-item:nth-child(3):after{
+  content:"Graphic Design";
+}
+
+.skill-list-item:nth-child(4):after{
+  content:"Photography";
+}
+
+.skill-list-item:after{
+  display:block;
+  height:42px;
+  line-height:42px;
+  padding-left:16px;
+  box-sizing: border-box;
+  color:#000;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.skill-list-item>.bar>span{
+  display:block;
+  padding-left:16px;
 }
 
 .skill-list-item>.bar.p93{
@@ -736,6 +774,7 @@
 
 .blog-list-item{
   margin-bottom:30px;
+  overflow:hidden;
 }
 
 .blog-list-item.type1{
@@ -750,6 +789,14 @@
 
 .blog-list-item:last-child{
   margin-left:30px;
+}
+
+.blog-list-item>.blog-list-item-image{
+  transition:transform .3s ease-out;
+}
+
+.blog-list-item:hover>.blog-list-item-image{
+  transform:scale(1.2,1.2);
 }
 
 .blog-list-item.type1>.blog-list-item-image{
